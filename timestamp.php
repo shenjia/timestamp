@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Asia/Shanghai');
 array_shift( $argv );
 $query = implode(' ', $argv);
 
